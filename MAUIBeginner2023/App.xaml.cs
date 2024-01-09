@@ -10,7 +10,7 @@ public partial class App : Application
 		// navPage.BarBackgroundColor = Colors.Chocolate;
 		// navPage.BarTextColor = Colors.White;
 		// MainPage = navPage;
-		MainPage = new NavigationPage(new PresentationControlsDemo());
+		MainPage = new NavigationPage(new CommandsControlsDemo());
 	}
 }
 
