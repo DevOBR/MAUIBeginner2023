@@ -1,4 +1,6 @@
-﻿namespace MAUIBeginner2023;
+﻿using MAUIBeginner2023.BindingDemo;
+
+namespace MAUIBeginner2023;
 
 public partial class App : Application
 {
@@ -10,7 +12,7 @@ public partial class App : Application
 		// navPage.BarBackgroundColor = Colors.Chocolate;
 		// navPage.BarTextColor = Colors.White;
 		// MainPage = navPage;
-		MainPage = new NavigationPage(new CollectionsControlsDemo());
+		MainPage = new NavigationPage(new SliderPage());
 	}
 }
 

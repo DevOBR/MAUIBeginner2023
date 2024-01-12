@@ -55,4 +55,10 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="BindingDemo\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="BindingDemo\" />
+	</ItemGroup>
 </Project>
